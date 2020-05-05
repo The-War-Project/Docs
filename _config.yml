@@ -4,7 +4,7 @@ title: Escape Room Project
 description: Algemene informatie i.v.m. het project
 
 search_enabled: true
-theme: jekyll-theme-midnight
+theme: jekyll-theme-cayman
 
 search_tokenizer_separator: /[\s/]+/
 
