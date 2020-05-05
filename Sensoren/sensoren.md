@@ -3,7 +3,6 @@ layout: default
 title: Sensoren
 nav_order: 2
 has_toc: true
-sidebar_link: true
 has_children: true
 ---
 
