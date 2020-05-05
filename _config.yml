@@ -8,6 +8,8 @@ search_enabled: true
 remote_theme: pmarsceill/just-the-docs
 # theme: jekyll-theme-cayman
 
+logo: "favicon.png"
+
 search_tokenizer_separator: /[\s/]+/
 
 markdown: kramdown
