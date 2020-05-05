@@ -1,7 +1,8 @@
 ---
-layout: category
+layout: index
 title: Home
 nav_order: 1
+sidebar_link : true
 ---
 
 # The War Project
