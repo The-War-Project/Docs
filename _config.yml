@@ -5,7 +5,7 @@ description: Algemene informatie i.v.m. het project
 
 search_enabled: true
 
-remote_theme: pmarsceill/just-the-docs
+remote_theme:  fongandrew/hydeout 
 # theme: jekyll-theme-cayman
 
 search_tokenizer_separator: /[\s/]+/
