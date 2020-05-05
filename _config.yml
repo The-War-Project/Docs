@@ -1,4 +1,11 @@
+github: [metadata]
+
 title: Escape Room Project
 description: Algemene informatie i.v.m. het project
+
 search_enabled: true
 theme: jekyll-theme-midnight
+
+search_tokenizer_separator: /[\s/]+/
+
+markdown: kramdown
