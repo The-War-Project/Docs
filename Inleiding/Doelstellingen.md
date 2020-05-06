@@ -8,7 +8,7 @@ parent: Home
 
 # Doelstellingen
 
-We bespreken hier een aantal doelstellingen die we will bereiken tijdens het uitwerken van die project:
+Een aantal doelstellingen die we will bereiken tijdens het uitvoeren van het project zijn als volgt weergegeven:
 
 * C++ code opstellen voor complexere arduino toestellen
 
