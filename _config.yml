@@ -13,3 +13,5 @@ logo: "favicon.png"
 search_tokenizer_separator: /[\s/]+/
 
 markdown: kramdown
+
+footer_content: "Written by Arne Reyniers and Robin Uyttendaele."
