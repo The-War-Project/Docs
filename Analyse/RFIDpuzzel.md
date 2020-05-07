@@ -61,3 +61,11 @@ De PN532 sensoren zijn uitermate belangrijk voor de werking van de puzzel. Ze ku
 | Reading distance          | 5-7 cm              |
 | Supported cards           | Mifare 1K, 4k, etc. |
 | Built in antenna          | On board            |
+
+## Gebruikstoepassingen
+
+Deze puzzel is ontworpen om gebruikt te worden in een escape room maar kan zeker ook gebruikt worden in eigen projecten waar iemand een slot nodig heeft aan de hand van verschillender ID tags.
+
+## Vereisten
+
+Aangezien de bekabeling zeer fragile is en de sensoren zeker niet beschadigd mogen worden is het aangeraden om deze niet in contact te laten komen met de gebruiker. Verstop de puzzel dus aan de achterkant van een plaat en vijs de sensoren op de plaat zodat de ID tags nog binnen de 5-7 cm operatie radius komen. Zorg er tenslotte ook voor dat de temperatuur niet onder nul of boven 125 graden stijgt. Indien dit niet gerespecteerd wordt kunnen we de normale werking van de puzzel niet garanderen.
