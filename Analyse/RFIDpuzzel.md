@@ -11,7 +11,7 @@ has_children: true
 
 ## Functionaliteit
 
-Het doel van de puzzel is om de juiste combinaties van ID tags en sensoren te vinden. Om dit tot een goed eind te brengen hebben we nood aan 8 RFID sensoren, een LDO en een atmega328P.
+Het doel van de puzzel is om de juiste combinaties van ID tags en sensoren te vinden. Om dit te realiseren hebben we nood aan 8 RFID sensoren, een LDO en een atmega328P.
 
 ### Onderdelen
 
@@ -44,3 +44,18 @@ Om onze processor te voeden hebben we nood aan een LDO. Deze zal de ingangsspann
 | Operating junction temperature range | 0 to 125 °C  |
 | Max DC input voltage                 | 15 V         |
 | Output current                       | Up to 800 mA |
+
+#### PN532 NFC module
+
+![PN532 Image](../Images/PN532.png)
+
+De PN532 sensoren zijn uitermate belangrijk voor de werking van de puzzel. Ze kunnen de IDs van Mifare cards of stikkers lezen binnen een bereik van 5 tot 7 cm. De sensoren hebben ook regelbare interfaces zodat we kunnen kiezen tussen SPI, I2C of HSU. We hebben voor ISP gekozen maar dat komt later aan bod. Enkele kenmerken van de sensoren volgen in onderstaande tabel.
+
+| Parameter                 | Value               |
+| :---:                     | :---:               |
+| On board level shifter    | Present             |
+| Interchangable interfaces | ISP, I2C and HSU    |
+| Arduino compatible        | Yes                 |
+| Reading distance          | 5-7 cm              |
+| Supported cards           | Mifare 1K, 4k, etc. |
+| Built in antenna          | On board            |
