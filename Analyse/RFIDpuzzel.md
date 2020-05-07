@@ -19,7 +19,7 @@ Om deze puzzel tot een goed eind te brengen hebben we nood aan enkele onderdelen
 
 #### Atmega 328P
 
-![Atmega Image](../Images/atmegaimage.png)
+![Atmega 328P Image](../Images/atmegaimage.png)
 
 De atmega 328P is het hart van onze puzzel. Deze processor, gebruikt in arduino UNO, is gekozen omwille van het wijdverspreid gebruik en de familiariteit in eerdere jaren van onze studie. Enkele gegevens zijn weergegeven in de tabel hieronder. Belanrijk om te noteren is dat er meer dan genoeg flash memory aanwezig is voor onze kleine programmas alsook de operating frequency hoog genoeg ligt zodat we een kristal van 16MHz kunnen gebruiken voor onze toepassing.
 
@@ -35,4 +35,6 @@ De atmega 328P is het hart van onze puzzel. Deze processor, gebruikt in arduino 
 
 #### LD1117S50TR
 
-Om onze processor te voeden hebben we nood aan een LDO. Deze zal de spanning, gegenereerd door de batterijen, op een constante van 5V houden. 
+![LDO Image](../Images/LDO.png)
+
+Om onze processor te voeden hebben we nood aan een LDO. Deze zal de ingangsspanning van de atmega 328P, gegenereerd door de batterijen, op een constante van 5V houden. 
