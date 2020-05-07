@@ -11,6 +11,8 @@ has_children: true
 
 ## Functionaliteit
 
+![Preview puzzle with arduino uno board](../Images/RFIDArduinoBoard.png)
+
 Het doel van de puzzel is om de juiste combinaties van ID tags en sensoren te vinden. Om dit te realiseren hebben we nood aan 8 RFID sensoren, een LDO en een atmega328P.
 
 ### Onderdelen
