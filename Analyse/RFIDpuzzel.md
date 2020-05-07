@@ -19,4 +19,4 @@ Om deze puzzel tot een goed eind te brengen hebben we nood aan enkele onderdelen
 
 #### Atmega 328P
 
-![](.\Images\atmegaimage.png)
+![Atmega Image](/Images/atmegaimage.png)
