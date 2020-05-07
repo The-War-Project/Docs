@@ -11,7 +11,7 @@ has_children: true
 
 ## Functionaliteit
 
-Het doel van de puzzel is om de juiste combinaties van ID tags en sensoren te vinden. Om dit tot een goed eind te brengen hebben we nood aan 8 RFID sensoren, een LDO en een atmega328P. [hier](./Sensoren/sensoren.md).
+Het doel van de puzzel is om de juiste combinaties van ID tags en sensoren te vinden. Om dit tot een goed eind te brengen hebben we nood aan 8 RFID sensoren, een LDO en een atmega328P.
 
 ### Onderdelen
 
@@ -19,4 +19,4 @@ Om deze puzzel tot een goed eind te brengen hebben we nood aan enkele onderdelen
 
 #### Atmega 328P
 
-![](./Images/atmegaimage.png)
+![](.\Images\atmegaimage.png)
