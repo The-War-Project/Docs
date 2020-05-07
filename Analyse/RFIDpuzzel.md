@@ -15,8 +15,8 @@ Het doel van de puzzel is om de juiste combinaties van ID tags en sensoren te vi
 
 ### Onderdelen
 
-Om deze puzzel tot een goed eind te brengen hebben we nood aan enkele onderdelen. Hun belangrijkste kenmerken zullen weergegeven worden.
+Om deze puzzel tot een goed eind te brengen hebben we nood aan enkele onderdelen. Hun belangrijkste kenmerken zullen hieronder beschreven worden.
 
 #### Atmega 328P
 
-![Atmega Image](/Images/atmegaimage.png)
+![Atmega Image](../Images/atmegaimage.png)
