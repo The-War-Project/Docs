@@ -1,3 +1,11 @@
+---
+layout: default
+title: RFID Puzzel Code
+has_toc: true
+---
+
+# Code RFID puzzel
+
 ```cpp
 #include <Arduino.h>
 #include <Wire.h>
