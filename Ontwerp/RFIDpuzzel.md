@@ -44,4 +44,6 @@ Als laatste bekijken we de headers. We hebben nood aan 8 headers elk met een voe
 
 ![Routing PCB](../Images/routingFinished.png)
 
-In de bovenstaande afbeelding is PCB geroute. De 5V lijnen zijn dikker gemaakt zodat de stroom er zeker zou door vloeien. Daarnaast moeten de ontkoppel capaciteiten zo dicht mogelijk bij de componenten liggen. Als laatste is er ook een grond vlak aan de onderzijde van de PCB.
+In de bovenstaande afbeelding is de PCB geroute. De 5V lijnen zijn dikker gemaakt zodat de stroom er zeker door zou vloeien. Daarnaast moeten de ontkoppel capaciteiten zo dicht mogelijk bij de componenten liggen. Als laatste is er ook een grond vlak aan de onderzijde van de PCB om gemakkelijke de gronden met elkaar te verbinden. De uiteindelijke oppervlakte van de PCB is 50.40mm op 38.00mm. 
+
+![Rotating PCB](../Images/PCBRotate.gif)
