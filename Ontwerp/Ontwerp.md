@@ -8,4 +8,4 @@ has_children: true
 
 # Ontwerp
 
-In dit hoofdstuk zullen we zowel de code als het PCB design van de puzzels overlopen. Ook hier zullen we weer opsplitsen in de [RFID puzzel](../Ontwerp/RFIDpuzzel.html) en de decyphering puzzel.
+In dit hoofdstuk zullen we zowel de code als het PCB design van de puzzels overlopen. Ook hier zullen we weer opsplitsen in de [RFID puzzel](../Ontwerp/RFIDpuzzel.html) en de [decyphering puzzel](../Ontwerp/decypherpuzzel.html).
