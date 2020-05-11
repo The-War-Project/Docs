@@ -14,4 +14,4 @@ De code voor de RFID puzzel is [hier](../Code/RFIDcode.md) te vinden. Bovenaan d
 
 Het tweede gedeelte van de code bestaat uit de setup. Hier wordt alles geïnitialiseerd. We starten met het connecteren van de seriële monitor en printen hierop een tekstje uit. Vanaf dan zal voor het aantal readers, in ons geval 8, telkens gecontrolleerd worden of deze werken. Indien ze werken zullen hun naam en firmware version in de seriële monitor verschijnen. 
 
-Na declaraties en initialisaties komen we uit op de kern van het programma. 
+Na declaraties en initialisaties komen we uit op de kern van het programma. Bovenaan de loop vinden we voorwaarde *isLocked* terug die hierboven vermeld en uitgelegd is. 
