@@ -33,3 +33,7 @@ Om onze PCB te voeden hebben we twee soldering pads, genaamd B+1 en B-1, aangesl
 ![Schematic overview full pcb](../Images/atmegaSchematic.png)
 
 Het schema van de atmega 328P is terug te vinden in de afbeelding hierboven. Link bovenaan is de reset pin terug te vinden. Deze is verbonden met de spanning aangezien deze op basis van active low werkt. De knop om de arduino te resetten wordt dan verbonden met de grond. Om de atmega een werk frequentie te geven hebben we nood aan het kristal X1. De capaciteiten zorgen ervoor dat we een oscillator maken. De weerstand daarentegen is nodig om de oscillator betrouwbaar op te starten. Links onderaan vinden nog enekele pinnen die naar de grond of met de voeding worden verbonden. De rechter kant van de atmega 328P bevat de nodige pinnen voor de sensoren. Naast de sensoren gebruiken we ook enkele leds om de toestand van het lock weer te geven. 
+
+![Schematic overview full pcb](../Images/headerSchematic.png)
+
+Als laatste bekijken we de headers. We hebben nood aan 8 headers elk met een voeding, grond, slave select, miso, mosi en clock pin. Er is ook een pin voorzien om met de reset te connecteren.
