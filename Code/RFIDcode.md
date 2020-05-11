@@ -2,6 +2,8 @@
 layout: default
 title: RFID Puzzel Code
 has_toc: true
+nav_order: 1
+parent: Code
 ---
 
 # Code RFID puzzel
