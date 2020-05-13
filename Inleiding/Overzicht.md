@@ -8,6 +8,9 @@ parent: Home
 
 # Overzicht
 
+![RFID block diagram](../Images/rfidDiagram.png)
+
+
 In het verslag gaan we stap voor stap door de verschillende hoofdstukken.
 
 Het eerste hoofdstuk gaat omtrent de analyse van het van de puzzels. We gaan hun functionaliteit, gebruiks toepassingen en de vereisten na. Hierbij is de RFID puzzel de eerste puzzel die vermeldt is in de inleiding. De decypher puzzel is dan de tweede puzzel vermeldt in de inleiding.
