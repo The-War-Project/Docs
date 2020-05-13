@@ -14,4 +14,4 @@ Een aantal doelstellingen die we will bereiken tijdens het uitvoeren van het pro
 
 * Opzoeken van datasheets en vergelijkingen kunnen maken tussen verschillende sensoren
 
-* Een werkent PCB ontwerp maken die specifiek aan de vereisten van onze puzzels voldoen
+* Een werkend PCB ontwerp maken die specifiek aan de vereisten van onze puzzels voldoen
