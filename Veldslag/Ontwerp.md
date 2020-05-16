@@ -1,9 +1,9 @@
 ---
 layout: default
-title: RFID Puzzel
-nav_order: 1
+title: Ontwerp Veldslag
+nav_order: 3
 has_toc: true
-parent: Ontwerp
+parent: veldslag
 ---
 
 # Ontwerp

@@ -1,10 +1,9 @@
 ---
 layout: default
-title: Decypher Puzzel
+title: Het ontwerp
 nav_order: 2
 has_toc: true
-parent: Ontwerp
+has_children: true
 ---
 
-# Ontwerp
-
+# Het ontwerp

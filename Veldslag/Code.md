@@ -1,10 +1,11 @@
 ---
 layout: default
-title: RFID Puzzel Code
+title: Code Veldslag
+nav_order: 5
 has_toc: true
-nav_order: 1
-parent: Code
+parent: veldslag
 ---
+
 
 # Code RFID puzzel
 

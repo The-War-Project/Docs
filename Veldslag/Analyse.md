@@ -1,13 +1,17 @@
 ---
 layout: default
-title: RFID puzzel
+title: Analyse Veldslag
 nav_order: 1
 has_toc: true
-parent: Analyse
-has_children: true
+parent: veldslag
 ---
 
-# RFID Puzzel
+# Analyse
+
+## Technologieën
+
+Om de pionnen te detecteren is er nood aan een sensor. Tijdens het opzoeken van technologieën kwamen we uit op 
+
 
 ## Functionaliteit
 
