@@ -44,15 +44,15 @@ Naast de tags zijn er natuurlijk ook readers nodig. Zij zullen de informatie van
 
 ### Conclusie
 
-RFID is in ons geval beter wegens het precies identificeren van de pionnen. Het contactloos lezen van de ID tags staat ons ook toe om de sensoren te verbergen en de oplossing voor de puzzel niet under de spelers hun neus te leggen. 
+RFID is in ons geval beter wegens het precies identificeren van de pionnen. Het contactloos lezen van de ID tags staat ons ook toe om de sensoren te verbergen en de oplossing voor de puzzel niet onder de spelers hun neus te leggen. Verder is de lage kost van deze sensoren iets waar we rekening mee houden. 
 
 ## RFID Sensor
 
-#### PN532 NFC module
+### PN532 NFC module
 
 ![PN532 Image](../Images/PN532.png)
 
-De PN532 sensoren zijn uitermate belangrijk voor de werking van de puzzel. Ze kunnen de IDs van Mifare cards of stikkers lezen binnen een bereik van 5 tot 7 cm. De sensoren hebben ook regelbare interfaces zodat we kunnen kiezen tussen SPI, I2C of HSU. We hebben voor ISP gekozen maar dat komt later aan bod. Enkele kenmerken van de sensoren volgen in onderstaande tabel.
+De PN532 sensoren zijn uitermate belangrijk voor de werking van de puzzel. Ze kunnen de IDs van Mifare cards of stikkers lezen binnen een bereik van 5 tot 7 cm. De sensoren hebben ook regelbare interfaces zodat we kunnen kiezen tussen SPI, I2C of HSU. Enkele kenmerken van de sensoren volgen in onderstaande tabel.
 
 | Parameter                 | Value               |
 | :---:                     | :---:               |
@@ -63,7 +63,7 @@ De PN532 sensoren zijn uitermate belangrijk voor de werking van de puzzel. Ze ku
 | Supported cards           | Mifare 1K, 4k, etc. |
 | Built in antenna          | On board            |
 
-
+In het geval van de veldslag puzzel hebben we gekozen voor een SPI interface. Indien we met een I2C interface zouden werken, moeten we in staat zijn om het ID van de sensor aan te passen. Dit is echter niet mogelijk waardoor er dus voor SPI geopteerd wordt. Het nadeel hiervan is dat er voor elke sensor een pin toegewijd moet worden. Meer hierover in het ontwerp. 
 
 
 
