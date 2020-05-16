@@ -2,8 +2,7 @@
 layout: default
 title: Het ontwerp
 nav_order: 2
-parent: Home
-has_toc: false
+has_toc: true
 has_children: true
 ---
 
