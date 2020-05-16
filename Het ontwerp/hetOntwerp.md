@@ -2,7 +2,7 @@
 layout: default
 title: Het ontwerp
 nav_order: 2
-has_toc: true
+has_toc: false
 has_children: false
 ---
 
