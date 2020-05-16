@@ -10,13 +10,16 @@ parent: Home
 
 ![RFID block diagram](../Images/rfidDiagram.png)
 
+## Veldslag
 
-In het verslag gaan we stap voor stap door de verschillende hoofdstukken.
+De eerste puzzel vermeld in home zullen we vanaf nu de veldslag puzzel noemen. Een kort overzicht van de puzzel is hierboven gegeven. Een MCU, gevoed door enkele batterijen, zal sensoren aanspreken. De spelers zullen aan de hand van vorige puzzels pionnen en instructies krijgen. Aan de hand van die instructies kan men te weten komen op welke plaatse ze de pionnen moeten plaatsen. Die pionnen moeten uiteraard op de juiste sensor geplaatst worden zodat het slot ontgrendeld kan worden. 
 
-Het eerste hoofdstuk gaat omtrent de analyse van het van de puzzels. We gaan hun functionaliteit, gebruiks toepassingen en de vereisten na. Hierbij is de RFID puzzel de eerste puzzel die vermeldt is in de inleiding. De decypher puzzel is dan de tweede puzzel vermeldt in de inleiding.
+Wat voor een technologie hebben we nodig om deze pionnen te detecteren? In de analyse gaan we na welke technologieën er bestaan om zo'n puzzel te maken. We sluiten af met een conclusie rond de gekozen technologie.
 
-Na grondige analyse kunnen we naar het ontwerp overgaan. Hierin zullen we dieper ingaan op het PCB ontwerp alsook op de code die we gebruiken om de puzzels werkende te krijgen.
+Na de keuze van de gepaste technologie is het mogelijk om een PCB te ontwerpen. Hier wordt stap voor stap opgebouwd door te beginnen met de schemas om uiteindelijk te eindigen bij het routen zelf. De code zal verder ook besproken worden.
 
-In het hoofdstuk realistatie zullen we de werking van de puzzels in een escape room bekijken met de zelf ontworpen PCBs die we besproken hebben in het vorige hoofdstuk.
+In het hoofdstuk realistatie zullen we de werking van de puzzels in een escape room bekijken.
 
 Tot slot sluiten we af met de belangrijkste conclusies en een evaluatie over het project. 
+
+## Oncijfering

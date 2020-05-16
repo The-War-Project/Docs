@@ -15,3 +15,7 @@ Een aantal doelstellingen die we will bereiken tijdens het uitvoeren van het pro
 * Opzoeken van datasheets en vergelijkingen kunnen maken tussen verschillende sensoren
 
 * Een werkend PCB ontwerp maken die specifiek aan de vereisten van onze puzzels voldoen
+
+* Leren werken met een SPI of I2C interface
+
+* Veiligheid voor de gebruiker en bescherming voor de puzzels
