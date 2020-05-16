@@ -8,6 +8,7 @@ parent: Het ontwerp
 
 # Puzzels
 
+
 ## Veldslag
 
 De eerste puzzel vermeld in home zullen we vanaf nu de veldslag puzzel noemen. Een kort overzicht van de puzzel is hierboven gegeven. Een MCU, gevoed door enkele batterijen, zal sensoren aanspreken. De spelers zullen aan de hand van vorige puzzels pionnen en instructies krijgen. Aan de hand van die instructies kan men te weten komen op welke plaatse ze de pionnen moeten plaatsen. Die pionnen moeten uiteraard op de juiste sensor geplaatst worden zodat het slot ontgrendeld kan worden. 

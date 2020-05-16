@@ -8,6 +8,13 @@ has_children: true
 
 # Het ontwerp
 
+##Thema
+
+##Puzzels
+
+##Samenhang
+
+##Puzzelkeuze
 
 Na wat puzzelwerk met de planning kwamen we op het idee om twee puzzels te maken. Elk met hun eigen ontwerp en oplossingsmethode.
 
