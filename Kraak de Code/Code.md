@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Code Kraak de Code
+title: Code
 nav_order: 5
 has_toc: true
 parent: Kraak de Code
