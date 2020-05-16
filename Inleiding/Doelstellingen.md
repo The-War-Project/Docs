@@ -3,7 +3,7 @@ layout: default
 title: Doelstellingen
 nav_order: 2
 has_toc: true
-parent: Home
+parent: Inleiding
 ---
 
 # Doelstellingen
