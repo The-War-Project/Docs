@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ontwerp Veldslag
+title: Ontwerp
 nav_order: 3
 has_toc: true
 parent: veldslag

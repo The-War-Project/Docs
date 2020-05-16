@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Realisatie Veldslag
+title: Realisatie
 nav_order: 4
 has_toc: true
 parent: veldslag
