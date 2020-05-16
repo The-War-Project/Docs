@@ -9,7 +9,7 @@ has_children: false
 
 ## Situering
 
-Dit project werd gemaakt als bachelor project voor het derde jaar industrieel ingenieur Elektronica & ICT aan de Technologiecampus Gent van KU Leuven. Deze bachelorproef staat voornamelijk in het teken van de keuzerichting embedded systems. Hierdoor wordt er van ons verwacht dat wij dit zelf zullen ontwerpen in een specifieke toepassing.
+Dit project werd gemaakt als bachelor project voor het derde jaar industrieel ingenieur Elektronica & ICT aan de Technologiecampus Gent van KU Leuven. Deze bachelorproef staat voornamelijk in het teken van de keuzerichting embedded systems. Hierdoor wordt er van ons verwacht dat wij embedded systems zullen ontwerpen in een specifieke toepassing.
 
 In vorige jaren werd er van de studenten verwacht om een auto op een parcours te laten rijden aan de hand van sensoren. Dit jaar is het echter anders. In plaats van het gebruikelijke thema is er nu gekozen voor het thema "escape room". Om een beetje in de juiste sfeer te komen hebben we in de projectweek (eerste week van het semester) een escape room bezocht en met de eigenaar gepraat over de basics van het ontwerpen van escape rooms. 
 
