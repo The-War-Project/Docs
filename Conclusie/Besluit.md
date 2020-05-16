@@ -2,7 +2,7 @@
 layout: default
 title: Besluit
 nav_order: 5
-has_toc: true
+has_toc: false
 ---
 
 # Besluit
