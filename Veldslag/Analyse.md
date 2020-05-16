@@ -40,13 +40,30 @@ Uit wat bestaat zo'n systeem dan?
 
 Alseerst hebben we een RFID tag nodig. Deze tags bestaan uit een geïntegreerd circuit alsook een antenne om de informatie die ze opgeslagen hebben over te brengen via radio frequenties. De tags kunnen dan ook passief als actief zijn. Actieve tags hebben een voeding waarmee ze opgestart worden maar wij hebben daar geen nood aan. De passieve tags zullen actief worden door een RFID reader dat een signaal stuurt naar de tag zijn antenne. De antenne absorbeerd de energie en zal hierdoor informatie over de tag terug sturen via de antenne. Passive tags zijn ook goedkoper dan actieve tags waardoor ze beter geschikt zijn voor een low cost puzzel.
 
-Naast de tags zijn er natuurlijk ook readers nodig. Zij zullen de informatie van de tags opvragen en lezen. Indien de ID tags (pionnen) overeen komen de juiste readers zal het slot open gaan. Meer informatie is [hier](./Code.html) terug te vinden
+Naast de tags zijn er natuurlijk ook readers nodig. Zij zullen de informatie van de tags opvragen en lezen. Indien de ID tags (pionnen) overeen komen de juiste readers zal het slot open gaan. Meer informatie hierover is [hier](./Code.html) terug te vinden.
 
+### Conclusie
 
+RFID is in ons geval beter wegens het precies identificeren van de pionnen. Het contactloos lezen van de ID tags staat ons ook toe om de sensoren te verbergen en de oplossing voor de puzzel niet onder de spelers hun neus te leggen. Verder is de lage kost van deze sensoren iets waar we rekening mee houden. 
 
+## RFID Sensor
 
+### PN532 NFC module
 
+![PN532 Image](../Images/PN532.png)
 
+De PN532 sensoren zijn uitermate belangrijk voor de werking van de puzzel. Ze kunnen de IDs van Mifare cards of stikkers lezen binnen een bereik van 5 tot 7 cm. De sensoren hebben ook regelbare interfaces zodat we kunnen kiezen tussen SPI, I2C of HSU. Enkele kenmerken van de sensoren volgen in onderstaande tabel.
+
+| Parameter                 | Value               |
+| :---:                     | :---:               |
+| On board level shifter    | Present             |
+| Interchangable interfaces | ISP, I2C and HSU    |
+| Arduino compatible        | Yes                 |
+| Reading distance          | 5-7 cm              |
+| Supported cards           | Mifare 1K, 4k, etc. |
+| Built in antenna          | On board            |
+
+In het geval van de veldslag puzzel hebben we gekozen voor een SPI interface. Indien we met een I2C interface zouden werken, moeten we in staat zijn om het ID van de sensor aan te passen. Dit is echter niet mogelijk waardoor er dus voor SPI geopteerd wordt. Het nadeel hiervan is dat er voor elke sensor een pin toegewijd moet worden. Meer hierover in het ontwerp. 
 
 
 
@@ -100,20 +117,7 @@ Om onze processor te voeden hebben we nood aan een LDO. Deze zal de ingangsspann
 | Max DC input voltage                 | 15 V         |
 | Output current                       | Up to 800 mA |
 
-#### PN532 NFC module
 
-![PN532 Image](../Images/PN532.png)
-
-De PN532 sensoren zijn uitermate belangrijk voor de werking van de puzzel. Ze kunnen de IDs van Mifare cards of stikkers lezen binnen een bereik van 5 tot 7 cm. De sensoren hebben ook regelbare interfaces zodat we kunnen kiezen tussen SPI, I2C of HSU. We hebben voor ISP gekozen maar dat komt later aan bod. Enkele kenmerken van de sensoren volgen in onderstaande tabel.
-
-| Parameter                 | Value               |
-| :---:                     | :---:               |
-| On board level shifter    | Present             |
-| Interchangable interfaces | ISP, I2C and HSU    |
-| Arduino compatible        | Yes                 |
-| Reading distance          | 5-7 cm              |
-| Supported cards           | Mifare 1K, 4k, etc. |
-| Built in antenna          | On board            |
 
 ## Gebruikstoepassingen
 
