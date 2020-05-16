@@ -16,7 +16,31 @@ Om de pionnen te detecteren is er nood aan een sensor. Tijdens het opzoeken van 
 
 Een eerste mogelijkheid is het gebruik van hall effect sensoren. Wanneer er geen extern magnetisch veld in de buurt van de sensor gebracht wordt, zal de output spanning gelijk zijn aan nul. Indien er toch een extern magnetisch veld in de buurt van de sensor komt zal er meer stroom geleiden wat tot een grotere output spanning zal leiden. 
 
-Om deze technologie te implementeren zouden we gebruik moeten maken van magnetische staven, elk met een verschillende magnetische sterkte. Dit brengt echter enkele problemen op de tafel. 
+Om deze technologie te implementeren zouden we gebruik moeten maken van magnetische staven, elk met een verschillende magnetische sterkte. Dit brengt echter enkele problemen met zich mee. 
+
+* Het bestellen van op maat gemaakte magnetische staven zou ten eerste al duur alsook moeilijk te verkrijgen zijn.
+
+* Staven kunnen elkaar beïnvloeden zodat de gemeten magnetische veldsterkte niet overeenkomt met de verwachte waarde. Andere toestellen kunnen ook een magnetisch veld creëren dat groot genoeg is om de resultaten te beïnvloeden.
+
+* Het ontwerp voor de pinnen zal moeilijker zijn. De magnetische staven moeten echter redelijk lang zijn. Het verstoppen van de puzzel zal ook moeilijker worden aangezien er gaten in het spelbord gemaakt moeten worden.
+
+Dit is dus niet geschikt voor een puzzel waar correctheid en verstoppen belangrijk zijn. De RFID technologie voldoet hier wel aan.
+
+### RFID
+
+Radio Frequency Identification (RFID) is het draadloos gebruik van radio frequenties om data te transfereren. 
+
+Uit wat bestaat zo'n systeem dan?
+
+* RFID reader
+
+* RFID tag
+
+* Antenne
+
+Alseerst hebben we een RFID tag nodig. Deze tags bestaan uit een geïntegreerd circuit alsook een antenne om de informatie die ze opgeslagen hebben over te brengen via radio frequenties. De tags kunnen dan ook passief als actief zijn. Actieve tags hebben een voeding waarmee ze opgestart worden maar wij hebben daar geen nood aan. De passieve tags zullen actief worden door een RFID reader dat een signaal stuurt naar de tag zijn antenne. De antenne absorbeerd de energie en zal hierdoor informatie over de tag terug sturen via de antenne. Passive tags zijn ook goedkoper dan actieve tags waardoor ze beter geschikt zijn voor een low cost puzzel.
+
+Naast de tags zijn er natuurlijk ook readers nodig. Zij zullen de informatie van de tags opvragen en lezen. Indien de ID tags (pionnen) overeen komen de juiste readers zal het slot open gaan. Meer informatie is [hier](./Code.html) terug te vinden
 
 
 
