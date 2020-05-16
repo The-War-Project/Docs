@@ -3,7 +3,7 @@ layout: default
 title: Ontwerp
 nav_order: 3
 has_toc: true
-parent: veldslag
+parent: Veldslag
 ---
 
 # Ontwerp

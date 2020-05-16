@@ -3,7 +3,7 @@ layout: default
 title: Analyse Veldslag
 nav_order: 1
 has_toc: true
-parent: veldslag
+parent: Veldslag
 ---
 
 # Analyse
