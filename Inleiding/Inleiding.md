@@ -1,10 +1,8 @@
 ---
 layout: default
-title: Het ontwerp
-nav_order: 2
+title: Inleiding
+nav_order: 1
 parent: index
 has_toc: false
 has_children: true
 ---
-
-# Het ontwerp

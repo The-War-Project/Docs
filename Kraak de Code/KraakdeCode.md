@@ -2,7 +2,8 @@
 layout: default
 title: Kraak de Code
 nav_order: 4
-has_toc: true
+parent: index
+has_toc: false
 has_children: true
 ---
 

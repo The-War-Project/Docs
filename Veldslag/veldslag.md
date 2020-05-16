@@ -2,7 +2,8 @@
 layout: default
 title: Veldslag
 nav_order: 3
-has_toc: true
+parent: index
+has_toc: false
 has_children: true
 ---
 
