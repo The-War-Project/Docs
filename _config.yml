@@ -3,7 +3,7 @@ github: [metadata]
 title: Escape Room Project
 description: Algemene informatie i.v.m. het project
 
-search_enabled: true
+search_enabled: false
 
 remote_theme: pmarsceill/just-the-docs
 # theme: jekyll-theme-cayman
@@ -15,3 +15,4 @@ search_tokenizer_separator: /[\s/]+/
 markdown: kramdown
 
 footer_content: "Written by Arne Reyniers and Robin Uyttendaele."
+

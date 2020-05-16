@@ -2,7 +2,7 @@
 layout: default
 title: Kraak de Code
 nav_order: 4
-parent: index
+parent: Home
 has_toc: false
 has_children: true
 ---
