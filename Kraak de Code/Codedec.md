@@ -10,6 +10,8 @@ parent: Kraak de code
 
 We hebben de remote controller behandelt, maar moeten natuurlijk ook nog de decoder voorzien. Om de code volledig te begrijpen zullen we ook een kleine schets van de verbonden pinnen maken. We zullen elke pin van de A4988 overlopen. VMOT is samen met GND verbonden met een externe bron van 8V, hiertussen staat ook nog een elco van 100uF, deze spanningsbron stuurt de motor aan. VDD en GND zijn verbonden met de 5V-pin, respectievelijk de GND-pin van de Arduino, dit zal de A4988 aansturen. De pinnen 2B, 2A, 1B, 1A zijn verbonden met de stappenmotor, zij dragen de voltage pieken over richting de stappenmotor om zo de rotatie te veroorzaken. Reset en sleep zijn aan elkaar verbonden. De steppin is verbonden aan digitale pin 2 en de dirpin aan digital pin 3 van de Arduino. MS2 en MS3 zijn aan de ground verbonden en MS1 is aan de 5V verbonden, zo zorgen we ervoor dat de stappenmotor met stappen van 0.9° vooruit zal gaan. Ook zijn er 4 switches verbonden tussen de digitale pinnen 4 tot en met 7 en de 5V-pin van de Arduino. Aan digitale pin 8 wordt de led verbonden die in serie met een weerstand van 470 Ohm richting de ground gaat.
 
+We merken ook op dat de sleutel om de code te ontcijferen hier nog niet in geïmplementeerd is. Het lampje zal branden als alle switches open zijn. De implementatie van de ontcijfercode is slechts een kleine verandering en kan dus makkelijk veranderd worden.
+
 ```cpp
 #include <Arduino.h>
 #include <math.h>
