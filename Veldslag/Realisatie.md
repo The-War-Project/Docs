@@ -15,3 +15,5 @@ In bovenstaande figuur is een eerste prototype weergegeven. Hier werd gebruik ge
 ![gif filmpje](../ImagesArne/film.gif)
 
 ![gif filmpje](../ImagesArne/monitor.gif)
+
+De zelf gemaakte PCB wordt dan opgestart door eerst een bootloader er op te branden waarna later, via een Arduino Uno, de code kan geüploaded worden.
