@@ -16,4 +16,4 @@ We hebben ook nog de decoder. Deze staat op een breadboard aangezien we hier gee
 
 ![Decoder](../ImagesRobin/decoder1.jpg)
 
-Beide modules werken zoals het hoort en ook de bluetooth modules doen wat hun gevraagd werd. Nu is de vraag alleen nog maar of het grote geheel ook werkt.
+Beide modules werken zoals het hoort en ook de bluetooth modules doen wat hun gevraagd werd. Nu is de vraag alleen nog maar of het grote geheel ook werkt. Er resteert ons enkel nog maar om de code in te laden op beide microcontrollers.
