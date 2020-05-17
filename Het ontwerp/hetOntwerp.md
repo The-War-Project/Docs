@@ -43,11 +43,17 @@ Om deze puzzel op te lossen zal men tandwielen nodig hebben. De tandwielen moete
 
 ### Kubus
 
+De kubus is eigenlijk een zeer klein puzzel. Het is de bedoeling dat de puzzelaar enkele 3D-blokken krijgt die maar op 1 manier geplaatst kunnen worden zodanig dat deze een kubus vormen. Indien men dit kan verwezenlijken zal men zien dat er een bepaald pad getekend is op de oppervlakte zodanig dat men een connectie kan leggen tussen bepaalde items. Resources die men hiervoor nodig kan hebben zijn de 3D-blokken en eventueel een instructieboekje om te weten te komen wat er exact verwacht wordt. Men krijgt ook de connectie tussen bepaalde items die men ook via trial and error zou kunnen proberen te vinden.
+
+### Luchtaanval
+
 
 ## Samenhang
 
+
 ## Puzzelkeuze
 
+Door de coronaproblematiek hebben we besloten om minstens 2 puzzels te verwezenlijken. Hierbij v
 
 
 
