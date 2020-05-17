@@ -21,23 +21,29 @@ Vooraleer we een concept van de puzzels maken, moeten we een thema voor onze esc
 Men kan zich de escape room voorstellen als een hoogtechnologische bunker van waaruit verschillende commando's verstuurd worden. In deze bunker speelt zich dus een tactisch spelletje tegen de klok af. De vijand is naderend en het gevaar schuilt figuurlijk om elke hoek, het is dus belangrijk om elke slag binnen te halen en zo de oorlog te winnen. 
 
 ## Puzzels
+
+### Sinusgolf
+
+Men krijgt een sinusgenerator te zien waarvan men via een draaiknop de frequentie kan aanpassen. Ook heeft men enkele plaatjes die men ervoor kan houden en hiermee kan vergelijken. Indien ze de juiste frequenties aan de juiste plaatjes linken, hebben ze de puzzel opgelost. Hiervoor moeten ze aan een draaiknop draaien om de frequentie te veranderen. De resources die ze nodig hebben vooraleer ze aan deze puzzel kunnen beginnen zijn de plaatjes. Men moet hier dus de juiste frequenties linken aan het juiste plaatje (kan gezien worden als vijand/geallieerde) om zo te weten te komen welke golflengte gebruikt wordt door welke eenheden.
 ### Veldslag
 
-De spelers zullen aan de hand van vorige puzzels pionnen en instructies krijgen. Aan de hand van die instructies kan men te weten komen op welke plaatse ze de pionnen moeten plaatsen. Die pionnen moeten uiteraard op de juiste sensor geplaatst worden zodat het slot ontgrendeld kan worden. 
+ In het midden van de ruimte staat een tafel die gemaakt is om de plattegrond van de omgeving te schetsen (denk maar aan de tafel in Dragonstone uit Game Of Thrones). Enkele pionnen, gekleurd in blauw en rood, schudderen heen en weer als de bommen neerslaan op enkele tientallen meters van jou vandaan. Waar moet je deze pionnen op het veldslag strategisch plaatsen om de strijd te winnen? Aan de hand van een boodschap of instructie is het mogelijk om de pionnen op de juiste plaats te positioneren waarmee de veldslag kan worden gewonnen en de puzzel dus opgelost is! De resources die men voor deze puzzel nodig heeft zijn de pionnen en de aanwijzingen om ze correct te gaan plaatsen.
 
-Beeld uwzelf in een bunker tijdens de wereld oorlog. Voor u is een tafel te zien met een platte grond van de omgeving. Enkele pionnen, gekleurd in blauw en rood, schudderen heen en weer als de bommen neerslaan op enkele tientallen meters van jou vandaan. Waar moet je deze pionnen op het veldslag plaatsen om de strijd te winnen? Dat is het doel van deze puzzel. Aan de hand van een boodschap of instructie is het mogelijk om de pionnen op de juiste plaats te positioneren waarmee *jij* de veldslag kan winnen!
+### Kraak de code
 
-### Oncijfering
-
-Heb je een geëncrypteerd bericht opgevangen uit de lucht, afkomstig van de vijand? Je hebt een handleiding en de componenten van een decryptie toestel om deze te ontcijferen! De spelers zullen tijdens het spelen van het spel componenten ontgrendelen om deze puzzel werkende te krijgen waarna ze het bericht kunnen ontcijferen.
+Natuurlijk is de tegenstander niet dom, ze zullen niet zomaar hun boodschap de wereld insturen. De kans dat deze onderschept wordt, is te groot. Daarom zullen boodschappen geëncrypteerd worden. De code kan gekraakt worden indien men de juiste codering vindt. Dit gebeurt door een draaiende schijf waarop alle mogelijke tekens die gebruikt worden opstaan. Ook heeft men enkele schakelaars, elk teken komt overeen met een bepaalde stand van deze schakelaars. Omdat schakelaars enkel voor 2 toestanden kunnen zorgen, is het zo dat het aantal tekens gelijk is aan 2^(aantal schakelaars). Indien de combinatie samen met de stand van schijf correct zijn, zal er een led gaan branden. Hiermee weet de gebruiker dat een bepaalde codering voor een bepaald teken staat. De stand van de schijf kan veranderd worden door het draaien van een afstandsbediening. De puzzel is opgelost indien de code correct gedecodeerd wordt. Zo kunnen ze de plannen van de tegenstander volledig in de war sturen. De resources die men hier voor nodig heeft zijn de afstandsbediening, de boodschap in codetaal en om nog een extra resource te verkrijgen starten we met een kapotte decoder. Om deze te herstellen zullen we een draadje nodig en een andere proef moeten voltooien. 
 
 ### Rangschikken van boeken
 
+Deze proef is heel simpel en zal door ons als startproef gebruikt worden. In het lokaal liggen enkele geschiedenisboeken die handelen over belangrijke oorlogsgebeurtenissen. Het is de bedoeling dat deze boeken chronologisch in de boekenkast waar ze perfect inpassen, geplaatst worden. Er staan ook reeds boeken met een bepaald tijdsslot in de boekenkast. Het interval in de tijd waarin ze de boeken mogen plaatsen is dus perfect afgebakend. Aangezien we 1 boek met instructies teveel geplaatst hebben, zal deze hier niet inpassen en dus dienen als instructies om de volgende puzzels op te lossen. In elk boek staan jammer genoeg instructies waardoor de gebruiker correct de boeken in de boekenkast zal moeten plaatsen vooraleer de puzzel opgelost wordt. Ze hebben wel het voordeel dat het instructieboek waarmee ze aan de volgende opdrachten kunnen beginnen al vrijgegeven wordt indien men dit uit de boeken kan filteren. Indien alle boeken correct staan, gaat er een kastje open met nog enkele resources. Deze opdracht heeft dus enkel de boeken die verspreidt liggen in het lokaal nodig als resources en kan veel resources vrijgeven waaronder instructies om volgende puzzels op te lossen.
+
 ### Tandwielen
+
+Om deze puzzel op te lossen zal men tandwielen nodig hebben. De tandwielen moeten in juiste posities geplaatst worden om de werking van een systeem te vervolledigen. In onze toepassing kunnen we dit dus makkelijk linken met het defect zijn van de decodeermachine. Ook hier kan eventueel een kastje opengaan om nog extra resources vrij te geven. De tandwielen kunnen opgehangen worden tegen de muur of men kan andere mechanica toepassen om dit te implementeren. Bij deze puzzel is het echter wel nodig om de veiligheid van de gebruiker te garanderen. De resources die men hiervoor nodig heeft, zijn instructies voor een correcte plaatsing en de tandwielen zelf. De resources die men krijgt zijn het gebruik van de decodeermachine en eventueel nog andere fysieke resources.
 
 ### Kubus
 
-### 
+
 ## Samenhang
 
 ## Puzzelkeuze
