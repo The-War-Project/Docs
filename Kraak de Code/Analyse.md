@@ -73,8 +73,8 @@ Als stappenmotor zullen we de NEMA 17 gebruiken. Deze motor wordt bestuurd door 
 
 Deze module zorgt voor een gemakkelijke besturing van de stappenmotor. Men kan de ingangsstroom aanpassen door middel van een potentiometer en kan via logische inputs de stappenmotor besturen. Deze inputs zijn: step en direction. Hiermee kan de richting waarin gedraaid wordt bepaald worden en kan er gedraaid worden met een constante snelheid door een kloksignaal aan de steppin aan te leggen. Ook zijn er nog de 3 MS pinnen die ervoor zorgen dat de minimale stapgrootte gelijk kan worden aan 0.1125°. Dit kan in sommige toepassingen heel handig zijn om precieze verdraaiingen te maken. Ook nu staan de eigenschappen hieronder opgelijst.
 
-| Parameter                | Value            |
-| :---:                    | :---:            |
-| Operating voltage (VDD)  | 8V - 35V         |
-| Logic voltage (VLOGIC    | 3V - 5.5V        |
+| Parameter                | Value                     |
+| :---:                    | :---:                     |
+| Operating voltage (VDD)  | 8V - 35V                  |
+| Logic voltage (VLOGIC    | 3V - 5.5V                 |
 | Microstep Resolution     | full, 1/2, 1/4, 1/8, 1/16 |
