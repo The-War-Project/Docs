@@ -51,6 +51,7 @@ Bij deze puzzel is de bedoeling dat een luchtaanval zo correct mogelijk uitgevoe
 
 ## Samenhang
 Hieronder ziet u een grafiek waarin getoond staat hoe de puzzels aan elkaar hangen. De vierkantjes zijn de puzzels, de pijltjes zijn resources die vrijgegeven worden door de puzzel van waar de pijl start en nodig zijn voor de puzzel waarnaar het pijltje wijst. We hebben expliciet gekozen om bepaalde resources snel te verkrijgen zodat men op hetzelfde moment over meerdere puzzels zou kunnen nadenken en er dus een betere spreiding is.
+
 ![Samenhang van alle puzzels](../Images/escaperoomdiagram.png)
 
 ## Puzzelkeuze
