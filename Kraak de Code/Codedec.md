@@ -1,10 +1,9 @@
 ---
 layout: default
-title: Code
-nav_order: 3
+title: Code Decoder
+nav_order: 4
 has_toc: true
 parent: Kraak de code
 ---
 
-
-# Code
+# Code Decoder
