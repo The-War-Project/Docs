@@ -36,7 +36,7 @@ Als laatste hebben we de het headersheet waarop de 2 headers staan waarmee onze 
 
 ![Kicad Headers](../ImagesRobin/kicadheaders.png)
 
-##Routing
+## Routing
 
 Nu we ons schema gemaakt hebben, moeten we enkel nog de juiste footprints koppelen en routen. We zullen tijdens het routen erop letten dat de ground- en 5V-banen dik genoeg zijn. Dit om te voorkomen dat er slecht contact zou ontstaan en de volledige toepassing hierdoor niet werkt. De frontview kunt u hieronder zien.
 
