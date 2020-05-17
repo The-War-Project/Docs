@@ -78,6 +78,6 @@ Aan de processor wordt een kristal gehangen om deze van een werkfrequentie te vo
 
 ![Routing PCB](../Images/routingFinished.png)
 
-In de bovenstaande afbeelding is de PCB geroute. De 5V lijnen zijn dikker gemaakt zodat de stroom er zeker door zou vloeien. Daarnaast moeten de ontkoppel capaciteiten zo dicht mogelijk bij de componenten liggen. Als laatste is er ook een grond vlak aan de onderzijde van de PCB om gemakkelijke de gronden met elkaar te verbinden. De uiteindelijke oppervlakte van de PCB is 50.40mm op 38.00mm. 
+In de bovenstaande afbeelding is de PCB geroute. De 5V lijnen zijn dikker gemaakt zodat de stroom er zeker door zou vloeien. Daarnaast moeten de ontkoppel capaciteiten zo dicht mogelijk bij de componenten liggen. Als laatste is er ook een grond vlak aan de onderzijde van de PCB voorzien om gemakkelijker de gronden met elkaar te verbinden. De uiteindelijke oppervlakte van de PCB is 50.40mm op 38.00mm. 
 
 ![Rotating PCB](../Images/PCBRotate.gif)
