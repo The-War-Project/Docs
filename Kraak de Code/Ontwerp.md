@@ -16,4 +16,4 @@ Ook zullen we enkel een schema ontwerpen voor onze remote controller. Dit doen w
 
 We hebben ons schema getekend via KiCad en hebben gebruik gemaakt van een reeds bestaand Arduino schema te vinden op deze [link](https://github.com/rheingoldheavy/arduino_uno_r3_from_scratch). Op dit schema hebben we echter bepaalde dingen weggelaten om onze PCB een zo laag mogelijk verbruik te geven. Het schema dat we zo bekomen ziet u in de volgende figuur.
 
-[Kicad schematic](../ImagesRobin/kicadschema.jpg)
+[Kicad schematic](../ImagesRobin/kicadschema.png)
