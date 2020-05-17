@@ -108,7 +108,7 @@ void loop() {
     }
   }
 
-  //Check if the battery voltage is high enough >5V
+  //Check if the battery voltage is high enough >5V (don't forget we used a voltage divider)
   if(analogRead(batteryPin)<0.45){
     digitalWrite(batteryLed, HIGH);
   }
