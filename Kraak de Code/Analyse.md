@@ -10,7 +10,7 @@ parent: Kraak de code
 
 Om te beginnen bekijken we deze puzzel wat meer in detail. We zullen 2 modules nodig hebben om deze puzzel te verwezenlijken, de afstandsbediening (remote controller) enerzijds en de decoder anderzijds. De remote controller moet de draaiing rond zijn eigen as kunnen meten. Hiervoor zullen we dus een bepaalde technologie moeten gebruiken. Deze draaiing moet verwerkt en doorgestuurd worden naar de decoder die deze informatie nog eens zal verwerken om de schijf op de juiste positie te zetten. Hierna moet er nog gekeken worden of deze positie klopt met de stand van de schakelaars. Dit is dus ook een werkje voor de decoder. De communicatie tussen beide delen zal ook via een bepaalde technologie moeten gebeuren evenals het draaien van de schijf. Aangezien we steeds met Arduino's zullen werken moeten we dus modules vinden die gemakkelijk te gebruiken zijn in combinatie met Arduino.
 
-## De sensor (draaiing rond eigen as)
+## De sensor
 
 ### Coriolis Effect
 
@@ -44,10 +44,37 @@ De HC-05 is een Bluetooth module waarbij men op voorhand kan instellen waarmee v
 
 | Parameter                   | Value            |
 | :---:                       | :---:            |
-| Input Voltage (VDD)         | 3.2V - 6V        |
+| Operating Voltage (VDD)     | 3.2V - 6V        |
 | Logic voltage (VLOGIC)      | 3.2V - VDD       |
 | Arduino compatible          | Yes              |
 | Supported Interface         | UART             |
 | Protocol                    | IEEE 802.15.1    |
 | Range                       | ~10m             |
 | Supported baud rates        | 9600 - 460800    |
+
+## De actuator
+
+### Stappenmotor
+
+Om een draaibeweging te genereren kunnen we gebruik maken van een stappenmotor. Het werkingsprincipe steunt op het gebruik van elektromagneten. Wanneer er stroom loopt door een electromagneet wordt er een magnetisch veld geînduceerd. Indien we er nu voorzorgen dat we een magneet hebben dat rond 1 bepaalde as kan draaien, zal deze aangetrokken worden door de elektromagneet wanneer hier stroom door loopt. Hierdoor zal er een draaiing veroorzaakt worden. Indien er hierna een stroom loopt door een andere electromagneet die hier naast staat, zal de magneet in zijn richting draaien. Indien men dit na elkaar doet kan er dus een vloeiende draaibeweging veroorzaakt worden. Door het gebruik van verschillende stroomsterkten door de elektromagneet kan men de stappen waarmee er gedraaid wordt, gaan aanpassen. Ook kan men de stappen aanpassen door meerdere electromagneten te plaatsen, hierdoor kunnen er stabielere stappen gezet worden en eventueel een hoger vermogen gehaald worden. Dit kan nodig zijn indien men een zeer sterke draaiing nodig heeft.
+
+### NEMA 17
+
+Als stappenmotor zullen we de NEMA 17 gebruiken. Deze motor wordt bestuurd door 4 pinnen. Deze 4 pinnen zullen meerdere elektromagneten aansturen die elk anders gericht staan. Enkele eigenschappen zijn:
+
+| Parameter                | Value            |
+| :---:                    | :---:            |
+| Max current per phase    | 1A               |
+| Step angle               | 1.8°/step        |
+| Length x Width           | 42.3cm x 42.3cm  |
+| Height                   | 23cm             |
+
+### A4988
+
+Deze module zorgt voor een gemakkelijke besturing van de stappenmotor. Men kan de ingangsstroom aanpassen door middel van een potentiometer en kan via logische inputs de stappenmotor besturen. Deze inputs zijn: step en direction. Hiermee kan de richting waarin gedraaid wordt bepaald worden en kan er gedraaid worden met een constante snelheid door een kloksignaal aan de steppin aan te leggen. Ook zijn er nog de 3 MS pinnen die ervoor zorgen dat de minimale stapgrootte gelijk kan worden aan 0.1125°. Dit kan in sommige toepassingen heel handig zijn om precieze verdraaiingen te maken. Ook nu staan de eigenschappen hieronder opgelijst.
+
+| Parameter                | Value            |
+| :---:                    | :---:            |
+| Operating voltage (VDD)  | 8V - 35V         |
+| Logic voltage (VLOGIC    | 3V - 5.5V        |
+| Microstep Resolution     | full, 1/2, 1/4, 1/8, 1/16 |
