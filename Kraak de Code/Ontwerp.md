@@ -30,8 +30,18 @@ Een foto van de ATMega kunt u hieronder zien.
 
 ![Kicad ATMega](../ImagesRobin/kicadatmega.png)
 
-Meer uitleg over de basiscomponenten zoals de ATMega 328P, de LDO voltage regulator LD1117S50TR en het kristal ABLS7M2 kunt u vinden bij het ontwerp van de veldslag. Deze worden hier niet toegevoegd aangezien men ze voor beide PCBs nodig heeft.
+Meer uitleg over de basiscomponenten zoals de ATMega 328P, de LDO voltage regulator LD1117S50TR en het kristal ABLS7M2 kunt u vinden bij het ontwerp van de veldslag. Deze worden hier niet toegevoegd aangezien men ze voor beide PCBs nodig heeft en ze daar reeds uitgelegd zijn.
 
-Als laatste hebben we de het headersheet waar op de 2 headers staan waarmee onze modules verbonden zullen worden. Dit kan men terugvinden in onderstaande figuur.
+Als laatste hebben we de het headersheet waarop de 2 headers staan waarmee onze modules verbonden zullen worden. Dit kan men terugvinden in onderstaande figuur.
 
 ![Kicad Headers](../ImagesRobin/kicadheaders.png)
+
+##Routing
+
+Nu we ons schema gemaakt hebben, moeten we enkel nog de juiste footprints koppelen en routen. We zullen tijdens het routen erop letten dat de ground- en 5V-banen dik genoeg zijn. Dit om te voorkomen dat er slecht contact zou ontstaan en de volledige toepassing hierdoor niet werkt. De frontview kunt u hieronder zien.
+
+![Kicad routing front](../ImagesRobin/kicadroutingfront.png)
+
+We hebben ook enkele banen op de achterkant getrokken. In combinatie met een grondvlak krijgen we de figuur hieronder.
+
+![Kicad routing back](../ImagesRobin/kicadroutingback.png)
