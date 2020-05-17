@@ -7,3 +7,5 @@ has_children: true
 ---
 
 # Veldslag
+
+Hieronder staan alle onderdelen van deze puzzel.

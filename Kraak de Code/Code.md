@@ -7,4 +7,4 @@ parent: Kraak de code
 ---
 
 
-# Code Kraak de Code
+# Code
