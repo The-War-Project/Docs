@@ -18,14 +18,14 @@ De code die we gebruikt hebben voor de remote controller staat op deze pagina op
 
 #define batteryPin A0
 #define batteryLed 5
-const int MPU = 0x68;
-float elapsedTime, time, timePrev;
-bool err_Calculated=false;
-int16_t Gyr_rawZ;
-float Gyr_angle_z;
-float Gyr_raw_err_z;
-CircBuffer values;
-float oldAngle, newAngle, angleShift, avg;
+const int MPU = 0x68;                        //Address of the MPU
+float elapsedTime, time, timePrev;           //variables to measure the time of a loop
+bool err_Calculated=false;                   //True if error is yet calculated
+int16_t Gyr_rawZ;                            //Raw value of the angle
+float Gyr_angle_z;                           //Value of the angle
+float Gyr_raw_err_z;                         //Error on the raw value
+CircBuffer values;                           //Circbuffer with the most recent angle values
+float oldAngle, newAngle, angleShift, avg;   //Extra variables to make sure only data will be sent to the decoder if necessary
 
 void setup() {
   //MPU6050 init
