@@ -43,7 +43,7 @@ Om deze puzzel op te lossen zal men tandwielen nodig hebben. De tandwielen moete
 
 ### Kubus
 
-De kubus is eigenlijk een zeer kleine puzzel. Het is de bedoeling dat de puzzelaar enkele 3D-blokken krijgt die maar op 1 manier geplaatst kunnen worden zodanig dat deze een kubus vormen. Indien men dit kan verwezenlijken zal men zien dat er een bepaald pad getekend is op de oppervlakte zodanig dat men een connectie kan leggen tussen bepaalde items. Resources die men hiervoor nodig kan hebben zijn de 3D-blokken en eventueel een instructieboekje om te weten te komen wat er exact verwacht wordt. Men krijgt ook de connectie tussen bepaalde items die men ook via trial and error zou kunnen proberen te vinden.
+De kubus is eigenlijk een zeer kleine puzzel. Het is de bedoeling dat de puzzelaar enkele 3D-blokken krijgt die maar op 1 manier geplaatst kunnen worden zodanig dat deze een kubus vormen. Indien men dit kan verwezenlijken, zal men zien dat er een bepaald pad getekend is op de oppervlakte zodanig dat men een connectie kan leggen tussen bepaalde items. Resources die men hiervoor nodig kan hebben, zijn de 3D-blokken en eventueel een instructieboekje om te weten te komen wat er exact verwacht wordt. Men krijgt ook de connectie tussen bepaalde items die men ook via trial and error zou kunnen proberen te vinden.
 
 ### Luchtaanval
 
@@ -53,6 +53,8 @@ Bij deze puzzel is de bedoeling dat een luchtaanval zo correct mogelijk uitgevoe
 Hieronder ziet u een grafiek waarin getoond staat hoe de puzzels aan elkaar hangen. De vierkantjes zijn de puzzels, de pijltjes zijn resources die vrijgegeven worden door de puzzel van waar de pijl start en nodig zijn voor de puzzel waarnaar het pijltje wijst. We hebben expliciet gekozen om bepaalde resources snel te verkrijgen zodat men op hetzelfde moment over meerdere puzzels zou kunnen nadenken en er dus een betere spreiding is.
 
 ![Samenhang van alle puzzels](../Images/escaperoomdiagram.png)
+
+De handleiding verkregen bij de eerste puzzel bevat ook uitleg over andere puzzels zodanig dat spelers nooit echt compleet vast komen te zitten.
 
 ## Puzzelkeuze
 
