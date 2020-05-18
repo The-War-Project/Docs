@@ -16,6 +16,8 @@ Door het kleine PCB ontwerp en gebruik van batterijen is het mogelijk om dit zee
 
 Een bijkoment nadeel van de PN532 sensor is echter dat deze niet tesamen met andere sensoren kan gebruikt worden als we een I2C interface willen gebruiken. Ze delen allemaal eenzelfde ID waardoor individuele aanspraak niet mogelijk is.
 
+Een realisatie van de puzzel is zeker mogelijk mits er een herontwerp van de PCB mogelijk is.
+
 ## Uitbreidingen
 
 Indien de hosts van de escape rooms meerdere sensoren willen gebruiken is er de mogelijkheid om I/O extenders te gebruiken. De Atmega328P heeft enkel 23 I/O pinnen maar met de extender kan dit aantal vele keren groter zijn.
