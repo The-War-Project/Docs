@@ -89,6 +89,8 @@ avrdude: Yikes!  Invalid device signature.
 avrdude done.  Thank you.
 ```
 
-Er blijkt een mismatch te zijn met de device signature. Dit kan om verschillende redenen gebeuren: een kortsluiting, een defecte oscillator, een los draadje etc. Na vervanging van het kristal, inspectie op korsluitingen en vervanging van slechte kabeltjes alsook het stappenplan doorlopen dat terug te vinden is via deze [link](https://forum.arduino.cc/index.php/topic,51819.0), werkt het branden nog steeds niet. Aangezien er niet genoeg tijd is om een nieuw ontwerp te maken zal het tweede prototype hierbij gelaten worden. In onderstaande afbeelding volgt wel een realisatie indien het prototype wel zou werken. 
+Er blijkt een mismatch te zijn met de device signature. Dit kan om verschillende redenen gebeuren: een kortsluiting, een defecte oscillator, een los draadje etc. Na vervanging van het kristal, inspectie op korsluitingen en vervanging van slechte kabeltjes alsook het stappenplan doorlopen dat terug te vinden is via deze [link](https://forum.arduino.cc/index.php/topic,51819.0), werkt het branden nog steeds niet. Aangezien er niet genoeg tijd is om een nieuw ontwerp te maken zal het tweede prototype hierbij gelaten worden. In onderstaande afbeelding volgt een realisatie indien het prototype wel zou werken. 
 
 ![prototype 2](../ImagesArne/proto2.jpg)
+
+Een aanpassing van de code zou ook echter van belang zijn. In de initialisatie moet de *pinMode* van de LED pinnen op output worden gezet. In de *loop* van het programma zal de groene led dan geactiveerd worden als het slot ontgrendeld is. Als het slot niet ontgrendeld mag worden, blijft de rode LED branden. 
