@@ -27,6 +27,8 @@ Men kan zich de escape room voorstellen als een hoogtechnologische bunker van wa
 Men krijgt een sinusgenerator te zien waarvan men via een draaiknop de frequentie kan aanpassen. Ook heeft men enkele plaatjes die men ervoor kan houden en hiermee kan vergelijken. Indien ze de juiste frequenties aan de juiste plaatjes linken, hebben ze de puzzel opgelost. Hiervoor moeten ze aan een draaiknop draaien om de frequentie te veranderen. De resources die ze nodig hebben vooraleer ze aan deze puzzel kunnen beginnen zijn de plaatjes. Men moet hier dus de juiste frequenties linken aan het juiste plaatje (kan gezien worden als vijand/geallieerde) om zo te weten te komen welke golflengte gebruikt wordt door welke eenheden.
 ### Veldslag
 
+![veldslagdiagram](../ImagesArne/diagramfinished.png)
+
  In het midden van de ruimte staat een tafel die gemaakt is om de plattegrond van de omgeving te schetsen (denk maar aan de tafel in Dragonstone uit Game Of Thrones). Enkele pionnen, gekleurd in blauw en rood, schudderen heen en weer als de bommen neerslaan op enkele tientallen meters van jou vandaan. Waar moet je deze pionnen op het veldslag strategisch plaatsen om de strijd te winnen? Aan de hand van een boodschap of instructie is het mogelijk om de pionnen op de juiste plaats te positioneren waarmee de veldslag kan worden gewonnen en de puzzel dus opgelost is! De resources die men voor deze puzzel nodig heeft zijn de pionnen en de aanwijzingen om ze correct te gaan plaatsen.
 
 ### Kraak de code
