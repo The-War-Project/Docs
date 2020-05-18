@@ -5,6 +5,8 @@ nav_order: 1
 has_toc: false
 has_children: false
 ---
+# The War Project
+
 # Inleiding
 
 ## Situering
@@ -13,7 +15,7 @@ Dit project werd gemaakt als bachelor project voor het derde jaar industrieel in
 
 In vorige jaren werd er van de studenten verwacht om een auto op een parcours te laten rijden aan de hand van sensoren. Dit jaar is het echter anders. In plaats van het gebruikelijke thema is er nu gekozen voor het thema "escape room". Om een beetje in de juiste sfeer te komen hebben we in de projectweek (eerste week van het semester) een escape room bezocht en met de eigenaar gepraat over de basics van het ontwerpen van escape rooms. 
 
-We hadden al snel door dat we niet enkel de elektronica zouden moeten ontwerpen, maar ook de samenhang van puzzels en de inkleding hiervan in 1 specifiek thema. Hierdoor genoten we natuurlijk een grotere vrijheid in het kiezen van de te ontwerpen puzzels. De keerzijde van de medaille was dat onze creativiteit zeer sterk op de proef werd gesteld in iets waar we geen ervaring mee hadden. Ook merkten we dat het niet vanzelfsprekend is om in elke puzzel complexere elektronica verwerkt te krijgen.
+We hadden al snel door dat we niet enkel de elektronica zouden moeten ontwerpen, maar ook de samenhang van puzzels en de inkleding hiervan in één specifiek thema. Hierdoor genoten we natuurlijk een grotere vrijheid in het kiezen van de te ontwerpen puzzels. De keerzijde van de medaille was dat onze creativiteit zeer sterk op de proef werd gesteld in iets waar we geen ervaring mee hadden. Ook merkten we dat het niet vanzelfsprekend is om in elke puzzel complexere elektronica verwerkt te krijgen.
 
 In de projectweek kregen we ook enkele sessies voorgeschoteld. Deze waren: Betere codeverhalen, PCB do's and don't's, Introductie tot Git en Project management. Deze sessies hebben ons enorm geholpen in het verdere verloop van het project door informatie te verschaffen waar we niet meteen zelf op zouden komen.
 
@@ -25,9 +27,9 @@ Een aantal doelstellingen die we willen bereiken tijdens het uitvoeren van het p
 
 * Opzoeken van datasheets en vergelijkingen kunnen maken tussen verschillende sensoren
 
-* Een werkend PCB ontwerp maken dat specifiek aan de vereisten van onze puzzels voldoen
+* Een werkend PCB ontwerp maken dat specifiek aan de vereisten van onze puzzels voldoet
 
-* Werken met een verschillende mogelijkheden om communicatie over te dragen tussen Arduino's en hun modules (I2C, UART, ISP)
+* Werken met verschillende mogelijkheden om communicatie over te dragen tussen Arduino's en hun modules (I2C, UART, ISP)
 
 * De gebruiker beveiligen voor ongewenste effecten tijdens het gebruik
 
@@ -41,4 +43,4 @@ Na de keuze van de te maken puzzels zullen we deze wat meer in detail bekijken. 
 
 Hierna kunnen we beginnen aan het ontwerp van de elektronica. We zullen veel testen en voornamelijk code schrijven. Wanneer deze testfase voltooid is en we een werkend prototype hebben, kunnen we beginnen aan het PCB-ontwerp. Dit zal ons in staat stellen om een klein bordje te maken dat volledig toegewijd is aan de toepassing die wij ontworpen hebben.
 
-Wanneer het PCB-ontwerp af is, kunnen we dit PCB fysiek gaan realiseren (wegens Corona bestellen). Uiteindelijk zullen we de werking evalueren om tenslotte een besluit te formuleren. Hierin vermelden we kort welke doelstellingen we behaald hebben, wat er beter kon en welke uitbreidingen verwezenlijkt kunnen worden.
+Wanneer het PCB-ontwerp af is, kunnen we dit PCB fysiek gaan realiseren (wegens Corona bestellen). Uiteindelijk zullen we de werking evalueren om tenslotte een besluit te formuleren. Hierin vermelden we kort welke doelstellingen we behaald hebben, wat er beter kon en welke uitbreidingen er aan toegevoegd kunnen worden.
