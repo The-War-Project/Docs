@@ -10,7 +10,7 @@ parent: Veldslag
 
 ## Technologieën
 
-Om de pionnen te detecteren is er nood aan een sensor. Tijdens het opzoeken van technologieën kwamen we uit op twee verschillende mogelijkheden. We zouden gebruik kunnen maken van het hall effect of gebruik van RFID modules. Hieronder zullen beiden vergelijkt en onderzocht worden om zo tot een keuze te komen voor de veldslag puzzel.
+Om de pionnen te detecteren is er nood aan een sensor. Tijdens het opzoeken van technologieën kwamen we uit op twee verschillende mogelijkheden. We zouden gebruik kunnen maken van hall effect sensoren of van RFID modules. Hieronder zullen beiden vergelijkt en onderzocht worden om zo tot een keuze te komen  die we kunnen gebruiken in de veldslag puzzel.
 
 ### Hall effect
 
