@@ -8,7 +8,7 @@ parent: Veldslag
 
 # Ontwerp
 
-Het ontwerp van veldslag moet in verschillende stappen gebeuren. Eerst beginnen we met een schema. Dit zal blok per blok uitgelegd worden zodat de functionaliteit van het geheel duidelijuk wordt. Vooraleer we de stap maken naar de routing van de pcb is er nood aan de keuze van footprints. Deze footprints zullen voorgesteld worden door de componenten en hun eigenschappen. Als laatste zullen we eens kijken naar het eigenlijke routen zelf.
+Het ontwerp van veldslag moet in verschillende stappen gebeuren. Eerst beginnen we met een schema. Dit zal blok per blok uitgelegd worden zodat de functionaliteit van het geheel duidelijk wordt. Vooraleer we de stap maken naar de routing van de pcb is er nood aan de keuze van footprints. Deze footprints zullen voorgesteld worden door de componenten en hun eigenschappen. Als laatste zullen we eens kijken naar het eigenlijke routen zelf.
 
 Het PCB design werd gemaakt via kiCAD. Dit is een free open source EDA die gemakkelijk te gebruiken is.
 
@@ -18,7 +18,7 @@ Vooraleer we kunnen routen, moeten we een schema opstellen. Als startpositie voo
 
 ![Schematic overview full pcb](../Images/overviewPCBSchematic.png)
 
-De afbeelding hierboven is de top view van onze PCB. We zullen op elk van deze componten ons eens verdiepen, startende met de voltage regulator te zien in de afbeelding hieronder.
+De afbeelding hierboven is de top view van onze PCB. We verdiepen ons nu in elk van deze componten, startende met de voltage regulator te zien in de afbeelding hieronder.
 
 ![Schematic voltage regulator](../Images/voltageRegulator.png)
 
