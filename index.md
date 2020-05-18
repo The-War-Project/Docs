@@ -5,6 +5,8 @@ nav_order: 1
 has_toc: false
 has_children: false
 ---
+# The War Project
+
 # Inleiding
 
 ## Situering
