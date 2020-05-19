@@ -23,7 +23,7 @@ Het inladen op de PCB ging moeilijker dan gedacht en we kunnen de bootloader nie
 Daarom heb ik een remote controller van een Arduino Uno gemaakt. Eerst laad ik de code in via een USB-kabel, zodat deze in het EEPROM-geheugen van de ATMega staat. Hierna verbinden we de batterij met de VINpin en de GNDpin. Hierdoor gaat het ON-ledje van de Arduino branden. De HC05-module kunnen we aan de UART-periferie (Tx & Rx) hangen. Hierbij moeten we opletten dat we TXD aan Rx verbinden en RXD aan Tx. Om deze module te voeden, kunnen we de 5V- en de GND-pin van de ICSP-pinnen pakken.
 Daarna is het de beurt aan de MPU-6050 die we simpelweg aan de overgebleven 5V- en GND-pin kunnen hangen om hem te voeden en aan de I2C-bus (SDA & SCL) te hangen om data door te geven. Hierdoor zijn nu alle connecties gelegd. Het resultaat is hieronder te zien. We moeten er wel op letten dat onze MPU-6050 rechtstaat zodat we een een correct beeld kunnen schetsen van de werking.
 
-![Remote controller Arduino(../ImagesRobin/remotecontrollerarduino.jpg)
+![Remote controller Arduino](../ImagesRobin/remotecontrollerarduino.jpg)
 
 Jammer genoeg kunnen we nu niet testen wanneer het batterijniveau te laag is. Maar we kunnen de basisfunctionaliteit implementeren en dat is het belangrijkst. Indien we nu de code gaan inladen in de decoder, komen we een werkend geheel uit. De werking kunt u zien in onderstaand filmpje.
 
