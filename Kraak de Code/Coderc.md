@@ -18,14 +18,14 @@ De code die we gebruikt hebben voor de remote controller staat op deze pagina op
 
 #define batteryPin A0
 #define batteryLed 5
-const int MPU = 0x68;                        //Address of the MPU
-float elapsedTime, time, timePrev;           //variables to measure the time of a loop
-bool err_Calculated=false;                   //True if error is yet calculated
-int16_t Gyr_rawZ;                            //Raw value of the angle
-float Gyr_angle_z;                           //Value of the angle
-float Gyr_raw_err_z;                         //Error on the raw value
-CircBuffer values;                           //Circbuffer with the most recent angle values
-float oldAngle, newAngle, angleShift, avg;   //Extra variables to make sure only data will be sent to the decoder if necessary
+const int MPU = 0x68;
+float elapsedTime, time, timePrev;
+bool err_Calculated=false;
+int16_t Gyr_rawZ;
+float Gyr_angle_z;
+float Gyr_raw_err_z;
+CircBuffer values;
+float oldAngle, newAngle, angleShift, avg;
 
 void setup() {
   //MPU6050 init
@@ -57,8 +57,6 @@ void setup() {
       Gyr_rawZ=Wire.read()<<8|Wire.read();
   
       Gyr_raw_err_z = Gyr_raw_err_z + (Gyr_rawZ/65.5);  //Divide by 65.5 because datasheet says so when using a scale range of 500 degrees per second
-      
-      //Calculation stops here
       if(i==199)
       {
         Gyr_raw_err_z = Gyr_raw_err_z/200;
@@ -66,7 +64,7 @@ void setup() {
       }
     }
   } 
-  //Circular buffer init of length 50
+  //Circular buffer init 
   values.init(50);
 
   //Set analog reference to 1.1V via internal
@@ -77,7 +75,6 @@ void setup() {
 }
 
 void loop() {
-  //Timer to count the time used for one loop  
   timePrev = time;
   time = millis();
   elapsedTime = (time-timePrev)/1000;
@@ -101,14 +98,15 @@ void loop() {
     oldAngle = newAngle;
     newAngle = Gyr_angle_z;
     angleShift = newAngle - oldAngle;
-    if (angleShift<-180) angleShift += 360;
-    else if (angleShift>180) angleShift -= 360;
+    while (angleShift<-180) angleShift += 360;          //Interval of [180, -180]
+    while (angleShift>180) angleShift -= 360;
     if (abs(angleShift) >= 11.25){
+      if (angleShift < 0) angleShift += 360;            //Make it positive so we don't have to work with signed integers when asking the value at the receiver's side 
       Serial.println(angleShift);
     }
   }
 
-  //Check if the battery voltage is high enough >5V (don't forget we used a voltage divider)
+  //Check if the battery voltage is high enough >5V
   if(analogRead(batteryPin)<0.45){
     digitalWrite(batteryLed, HIGH);
   }
